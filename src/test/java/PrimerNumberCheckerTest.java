@@ -15,6 +15,7 @@ public class PrimerNumberCheckerTest {
         Assert.assertTrue(result, "Number " + testNumber + " is said to be not prime, but we were expected prime number");
     }
 
+    // New comments added
     @Test
     public void seventeenShouldBePrimeTest1() {
         // arrange
