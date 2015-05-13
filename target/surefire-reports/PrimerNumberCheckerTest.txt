@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: PrimerNumberCheckerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.432 sec <<< FAILURE!
+seventeenShouldBePrimeTest1(PrimerNumberCheckerTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Number 17 is said to be not prime, but we were expected prime number expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at PrimerNumberCheckerTest.seventeenShouldBePrimeTest1(PrimerNumberCheckerTest.java:24)
+

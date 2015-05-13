@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PrimerNumberCheckerTest]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="PrimerNumberCheckerTest">
+        <methods>
+          <include name="seventeenShouldBePrimeTest1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
