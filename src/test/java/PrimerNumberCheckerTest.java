@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 @Test
 public class PrimerNumberCheckerTest {
 
+    // Added some comments for tests
     @Test
     public void seventeenShouldBePrimeTest() {
         // arrange
