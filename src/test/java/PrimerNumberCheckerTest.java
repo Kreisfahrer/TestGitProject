@@ -19,7 +19,7 @@ public class PrimerNumberCheckerTest {
     @Test
     public void seventeenShouldBePrimeTest1() {
         // arrange
-        int testNumber = 17;
+        int testNumber = 19;
         // act
         boolean result = PrimeNumberChecker.isPrime(testNumber);
         // assert
